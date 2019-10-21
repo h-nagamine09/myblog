@@ -9,11 +9,18 @@
   </head>
 
   <body>
-    <%= render 'layouts/navbar' %>
-      <div class="container">
-        <%= render 'layouts/flash_messages' %>
-
+    <div class="container">
+      <%= render 'layouts/flash_messages' %>
+      <header>
+        <%= render 'shared/navbar' %>
+      </header>
+      <main>
         <%= yield %>
-      </div>
+      </main>
+      <footer>
+        <%= render 'shared/footer' %>
+      </footer>
+    </div>
+
   </body>
 </html>

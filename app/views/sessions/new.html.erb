@@ -1,1 +1,3 @@
-<%= render 'login_form', sessions: @sessions%>
+<%= render 'shared/login_form', sessions: @sessions %>
+
+<p>新規ユーザー登録の方は <%= link_to 'こちら',signup_path %></p>
