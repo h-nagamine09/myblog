@@ -1,0 +1,19 @@
+<div class="text-center">
+  <h1>ログイン</h1>
+
+  <%= form_for(:session, url: login_path) do |f| %>
+    <div class="form-group">
+      <%= f.label :email, 'メールアドレス'%>
+      <%= f.email_field :email, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :password, 'パスワード'%>
+      <%= f.email_field :email, class: 'form-control' %>
+    </div>
+
+    <%= f.submit 'ログイン', class: 'btn btn-outline-dark' %>
+  <% end %>
+
+  <p>新規ユーザー登録の方は <%= link_to 'こちら',signup_path %></p>
+</div>
