@@ -3,6 +3,7 @@ ja:
     attributes:
       user:
         name: ユーザー名
+        email: メールアドレス
         password: パスワード
-        password_confirmation: パスワード(確認)
+        password_confirmation: パスワード(再入力)
       blog:
