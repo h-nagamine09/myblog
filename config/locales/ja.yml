@@ -7,3 +7,5 @@ ja:
         password: パスワード
         password_confirmation: パスワード(再入力)
       blog:
+        title: タイトル
+        content: ブログ本文
