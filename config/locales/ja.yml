@@ -9,3 +9,7 @@ ja:
       blog:
         title: タイトル
         content: ブログ本文
+        posted_at: 日時
+        status_draft: 下書き
+        status_member_only: 会員限定
+        status_public: 公開
